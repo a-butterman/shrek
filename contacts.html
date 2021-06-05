@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>Shrek is love</title>
+</head>
+
+<body>
+
+    <div class="page">
+
+        <!-- HEADER -->
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+
+                    <div class="header-brand">
+                        <a class="header-link" href="index.html">SHREK IS LOVE</a>
+                    </div>
+
+                    <div class="header-logo">
+                        <img src="img/code.svg" alt="logo">
+                    </div>
+
+                    <nav class="header-nav">
+                        <a class="header-nav-link" href="index.html">Главная</a>
+                        <a class="header-nav-link" href="about.html">Обо мне</a>
+                        <a class="header-nav-link active" href="contacts.hmtl">Связаться</a>
+                    </nav>
+                </div>
+
+            </div> <!-- /container -->
+        </header>
+
+        <div class="container">
+            <!-- content -->
+            <main class="content">
+                <h1 class="form-title">Напишите мне!</h1>
+                <p class="form-text">Не приходите ко мне, а лучше напишите. Отвечаю всем!</p>
+                <form class="form" action="/" method="POST">
+
+                    <input class="input" name="name" type="text" placeholder="Ваше имя">
+                    <input class="input" name="email" type="email" placeholder="Ваш E-mail">
+                    <input class="input" name="tel" type="tel" placeholder="Ваш телефон">
+                    <textarea class="textarea" name="text" placeholder="Ваше сообщение"></textarea>
+
+                    <button class="btn full-btn" type="submit">Отправить сообщение</button>
+                </form>
+            </main><!-- /container -->
+        </div><!-- /content -->
+
+        <!-- footer-->
+        <footer class="footer">
+            <div class="container">
+                <div class="contacts">
+                    <a class="contacts-link" href="mailto:shrek@swamp.ogr">
+                        <img class="contacts-icon" src="img/mail.svg" alt="mail">shrek@swamp.ogr
+                    </a>
+                    <a class="contacts-link" href="tel:+375987654321">
+                        <img class="contacts-icon" src="img/tel.svg" alt="tel">+375 (98) 765-43-21
+                    </a>
+                </div>
+            </div>
+        </footer><!-- /footer-->
+
+        <!-- img.shrek -->
+        <img class="img-shrek" src="img/shrek.png" alt="shrek">
+
+    </div> <!-- /page-->
+
+</body>
+</html>
