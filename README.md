@@ -1,2 +1,2 @@
-# shrek
-The first responsive simple site
+# The first responsive simple site
+shrek 
